@@ -16,7 +16,8 @@ header {
 
 /* 
 What happens when we set the display property to flex? 
-TODO: Write your answer here - Items in the scree behave as if they are in a container which when shrunk, they wrap or move 
+TODO: Write your answer here - Items in the scree behave as 
+if they are in a container which when shrunk, they wrap or move 
 towards best fit rather than have others left out.
 */
 nav {
@@ -33,7 +34,9 @@ nav a {
 
 /* 
 What is the flex-wrap property? 
-TODO: Write your answer here 
+TODO: Write your answer here - this directs the 
+items to occupy the next line if they cant fit on
+the same line and squeeze together to fit the screen.
 */
 main {
   display: flex;
@@ -57,8 +60,10 @@ footer {
 
 /* 
 What does the justify-content property do? 
-TODO: Write your answer here - it allow items in the flexbox to either all be centered around the screen, moved from right end 
-towards the center or left end towards the center
+TODO: Write your answer here - it allow items in 
+the flexbox to either all be centered around 
+the screen, moved from right end towards the 
+center or left end towards the center
 */
 .products {
   flex: 4;
